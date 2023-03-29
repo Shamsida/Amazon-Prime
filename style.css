@@ -1,0 +1,191 @@
+body {
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  .site-header { 
+    display: flex;
+    position: fixed; 
+    width: 100%;
+    background-color:  rgb(41, 40, 40);
+    align-items: center;
+  }
+  
+  
+  .site-identity {
+    float: left;
+    margin-left: 40px;
+  }
+  
+  .site-identity img {
+    max-width: 110px;
+    float: left;
+  }
+  
+  .navbar {
+    overflow: hidden;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    margin-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .navbar a:hover, .dropdown-btn:hover, .header-right a:hover{
+    color: #e67e7e;
+  }
+  .dropdown {
+    float: left;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #0f171e;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }    
+  .header-right{
+    display: flex;
+    align-items: center;
+  }
+  .header-right .language{
+    display: flex;
+    align-items: center;
+    margin-left: 625px;
+    font-size: 15px;
+  }
+  .header-right .language span{
+    padding-left: 8px;
+    color: white;
+  }
+  .header-right a{
+    padding-left: 10px;
+    float: right;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    cursor: pointer;
+  }
+
+  /*-- Banner Starts Here --*/
+  .banner{
+    width: 100%;
+    height: 90vh;
+    background-image: linear-gradient(to right, black 40%, transparent 58%),url(banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .banner .banner_txt, .banner2 .banner_txt2{
+    width: 44%;
+    color: #fff;
+    padding-left: 80px;
+  }
+  .banner .banner_txt{
+    padding-top: 120px;
+  }
+  .banner .banner_txt h2, .banner2 .banner_txt2 h2{
+    font-size: 44.8px;
+    padding-bottom: 15px;
+  }
+  .banner .banner_txt p,.banner1 .banner_txt1 p, .banner2 .banner_txt2 p{
+    font-size: 20px;
+    color: #e6e3e3;
+    padding-bottom: 49px;
+  }
+  .banner .banner_txt button,.banner1 .banner_txt1 button, .banner2 .banner_txt2 button{
+    background-color: #0F79AF;
+    display: block;
+    color: #fff;
+    padding: 15px;
+    font-size: 17px;
+    width: 56%;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .banner1{
+    width: 100%;
+    height: 65vh;
+    background-image: linear-gradient(to left, black 40%, transparent 58%),url("https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SY1200_FMJPG_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .banner1 .banner_txt1{
+    width: 44%;
+    color: #fff;
+    margin-left: 740px;
+    padding-top: 20px;
+  }
+  .banner2 .banner_txt2{
+    padding-top: 35px;
+  }
+  .banner1 .banner_txt1 h2{
+    font-size: 40px;
+    padding-bottom: 15px;
+  }
+  .banner2{
+    width: 100%;
+    height: 63vh;
+    background-image: linear-gradient(to right, black 40%, transparent 58%),url("https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_SY1200_FMJPG_.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+
+  footer{
+    width: 100%;
+    background-color: #222222;
+    padding: 25px 0;
+  }
+  .footer{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+  }
+  .footer a{
+    color: #0F79AF;
+    font-size: 14px;
+    padding: 0 6px;
+  }
+  .footer small{
+    display: block;
+    color: gray;
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
